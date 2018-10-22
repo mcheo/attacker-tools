@@ -7,7 +7,7 @@ clear
 echo "Traffic Baselining"
 echo
 #IP=$1
-IP=$APP_IP
+IP=$APP_ADDR
 #if [ "$IP" == "" ]
 # then
 #        #echo -n "Enter Target IP as an Argument"
